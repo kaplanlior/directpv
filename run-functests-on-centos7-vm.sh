@@ -166,7 +166,7 @@ EOF
 
     rm -f vdb.xml "${VM_NAME}-vdb.qcow2"
 
-    remove_test_vm
+    stop_test_vm
 }
 
 setup_base_image
